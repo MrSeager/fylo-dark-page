@@ -32,7 +32,7 @@ const SectorTwo: FC<SectorTwoProps> = ({ cardTitle_1, cardTitle_2, cardTitle_3, 
         <Container fluid className='cs-bg-darkblue-second px-5'>
             <Row className='mx-lg-5 mx-0 px-lg-5 px-0'>
                 {cardData.map((card, index) => (
-                <Col md={6} xs={12} className='p-5' key={index}>
+                <Col lg={6} xs={12} className='p-lg-5 p-2' key={index}>
                     <CustomCard
                         imgSrc={card.imgSrc}
                         imgAlt={card.imgAlt}

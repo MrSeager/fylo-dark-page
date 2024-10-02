@@ -22,7 +22,7 @@ const SectionFive: FC<SectionFiveProps> = ({ head, par, par_invalid }) => {
     };
 
     return(
-        <Container fluid className='d-flex align-items-center p-5 cs-bg-gradient'>
+        <Container fluid className='d-flex align-items-center p-lg-5 px-2 cs-bg-gradient'>
             <Container fluid className='d-flex flex-column gap-3 p-5 cs-w-60 text-white text-center rounded shadow cs-bg-darkblue-main'>
                 <h5 className='h2 cs-fw-700 cs-font-raleway'>{head}</h5>
                 <p>{par}</p> 

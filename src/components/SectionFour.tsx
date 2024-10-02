@@ -24,7 +24,7 @@ const SectionFour: FC<SectionFourProps> = ({ par, head_1, head_2, head_3, head }
       ];
     
     return(
-        <Container fluid className='cs-bg-darkblue-second cs-bg-image-2 text-white p-5'>
+        <Container fluid className='cs-bg-darkblue-second cs-bg-image-2 text-white p-lg-5 px-2'>
             <Row>
             {reviewData.map((review, index) => (
                 <Col lg={4} xs={12} className='p-3' key={index}>
