@@ -1,0 +1,164 @@
+/*Header font*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+/*Body font*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.cs-w-60 {
+    width: 60% !important;
+}
+
+.cs-w-50 {
+    width: 50% !important;
+}
+
+.cs-w-40 {
+    width: 40% !important;
+}
+
+.cs-w-20 {
+    width: 20% !important;
+}
+
+.cs-h {
+    height: 60px !important;
+}
+
+/*Font*/
+.cs-font-raleway {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.cs-fw-700 {
+    font-weight: 700 !important;
+}
+
+.cs-fc-cyan {
+    color: hsl(176, 68%, 64%) !important;
+}
+
+.cs-h7 {
+    font-size: 10px !important;
+}
+
+/*Bakground*/
+.cs-bg-darkblue-main {
+    background-color: hsl(217, 28%, 15%) !important;
+}
+
+.cs-bg-darkblue-second {
+    background-color: hsl(218, 28%, 13%) !important;
+}
+
+.cs-bg-darkblue-footer {
+    background-color: rgba(11,21,35,1) !important;
+}
+
+.cs-bg-image-1 {
+    background: url('../images/bg-curvy-desktop.svg') no-repeat bottom center / 100%;
+}
+
+.cs-bg-image-2 {
+    background: url('../images/bg-quotes.png') no-repeat;
+    background-position: 3% 10%;
+}
+
+.cs-bg-gradient {
+    background: rgb(11,21,35);
+    background: linear-gradient(0deg, rgba(11,21,35,1) 0%, rgba(11,21,35,1) 50%, rgba(24,31,42,1) 50%, rgba(24,31,42,1) 100%);
+}
+
+/*Buttons*/
+.cs-link {
+    transition: .3s !important;
+    border-bottom: solid 2px transparent !important;
+}
+
+.cs-link:hover {
+    text-shadow: 
+        0.5px 0.5px 0 white, 
+        -0.5px -0.5px 0 white, 
+        0.5px -0.5px 0 white, 
+        -0.5px 0.5px 0 white;
+    border-bottom: solid 2px white !important;
+}
+
+.cs-link-2 {
+    transition: .3s !important;
+    border-bottom: solid 2px hsl(176, 68%, 64%) !important;
+    border-radius: 0 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.cs-link-2:hover {
+    color: white !important;
+    border-bottom: solid 2px white !important;
+}
+
+.cs-btn {
+    background-color: hsl(198, 60%, 50%) !important;
+    transition: .3s !important;
+}
+
+.cs-btn:hover {
+    background-color: hsl(176, 68%, 64%) !important;
+}
+
+.cs-link-3 {
+    transition: .3s !important;
+}
+
+.cs-link-3:hover {
+    text-shadow: 
+        0.5px 0.5px 0 white, 
+        -0.5px -0.5px 0 white, 
+        0.5px -0.5px 0 white, 
+        -0.5px 0.5px 0 white;
+}
+
+.cs-btn-2 {
+    transition: .3s !important;
+}
+
+.cs-btn-2:hover {
+    color: hsl(176, 68%, 64%) !important;
+    border-color: hsl(176, 68%, 64%) !important;
+}
+
+/*Input*/
+.cs-input {
+    position: relative;
+}
+
+.cs-invalid {
+    position: absolute;
+    right: -35px;
+    bottom: -25px;
+}
+
+@media (max-width: 991px) {
+    .cs-w-60 {
+        width: 100% !important;
+    }
+
+    .cs-w-50 {
+        width: 90% !important;
+    }
+
+    .cs-w-40 {
+        width: 85% !important;
+    }
+
+    .cs-w-20 {
+        width: 50% !important;
+    }
+
+    .cs-bg-image-2 {
+        background-position: 15% 3%;
+    }
+}
