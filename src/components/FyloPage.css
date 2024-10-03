@@ -161,4 +161,12 @@ body {
     .cs-bg-image-2 {
         background-position: 15% 3%;
     }
+
+    .cs-link {
+        border: none !important;
+    }
+
+    .cs-link:hover {
+        border: none !important;
+    }
 }

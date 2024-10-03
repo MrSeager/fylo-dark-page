@@ -6,7 +6,7 @@ import ImgLogo from '../images/logo.svg';
 
 const PageNavBar: FC = () => {
     return (
-        <Navbar fixed="top" className='mt-5'>
+        <Navbar fixed="top" data-aos="fade-down" className='pt-5'>
             <Container fluid className='mx-lg-5 mx-3'>
                 <Navbar.Brand><Image fluid src={ImgLogo} alt='logo' className='w-75' /></Navbar.Brand>
                 <Nav className='gap-5 justify-content-between text-center'>

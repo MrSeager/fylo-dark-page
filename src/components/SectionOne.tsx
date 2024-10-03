@@ -11,7 +11,7 @@ interface SectorOneProps {
 
 const SectorOne: FC<SectorOneProps> = ({ head, par }) => {
     return (
-        <Container fluid className='cs-bg-image-1 gap-3 text-center py-5 text-white d-flex flex-column align-items-center'>
+        <Container fluid data-aos="fade-up" className='overflow-hidden w-100 cs-bg-image-1 gap-3 text-center py-5 text-white d-flex flex-column align-items-center'>
             <Image fluid src={ImgIntro} alt='illustration intro' />
             <h1 className='cs-w-50 mt-5 cs-fw-700 cs-font-raleway'>{head}</h1>
             <p className='cs-w-40'>{par}</p>

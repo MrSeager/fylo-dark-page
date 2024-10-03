@@ -46,8 +46,10 @@ const FyloPage: FC = () => {
         par_5: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
     }
 
+    AOS.init();
+
     return(
-        <Container fluid className='min-vh-100 cs-bg-darkblue-main pt-5 px-0'>
+        <Container fluid className='overflow-hidden cs-bg-darkblue-main pt-5 px-0 mx-0'>
             <PageNavBar />
             <SectorOne 
                 head={lineProps.head_1}
