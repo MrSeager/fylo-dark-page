@@ -130,6 +130,10 @@ body {
     border-color: hsl(176, 68%, 64%) !important;
 }
 
+.cs-btn-3 .btn-close {
+    filter: invert(1);
+}
+
 /*Input*/
 .cs-input {
     position: relative;
